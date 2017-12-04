@@ -54,6 +54,7 @@ public class CollectedRainWaterCalculator {
         int waterVolumeOverSurfacePoint =
                 Math.min(maxHeightToLeftOfSurfacePoint, maxHeightToRightOfSurfacePoint) - currentSurfacePointHeight;
         //handle the first surface point since the max height to left will be 0.
+        //Also when the min of left and right is less than currentSurfacePointHeight.
         return Math.max(waterVolumeOverSurfacePoint, 0);
     }
 
