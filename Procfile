@@ -1,1 +1,1 @@
-web:    java -cp target/classes:target/dependency/* org.apache.tomee.embedded.Main --port=$PORT --as-war
+web:    java -cp target/classes:target/dependency/* net.aray.commonproblems.collectedrainwater.HerokuRunner --port=$PORT --as-war
