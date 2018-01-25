@@ -8,6 +8,17 @@
 
     <build>
         <finalName>rainy-hills</finalName>
+     <plugins>
+      <plugin>
+        <groupId>org.apache.tomee.maven</groupId>
+        <artifactId>tomee-maven-plugin</artifactId>
+        <version>${tomee.version}</version>
+        <configuration>
+          <tomeeVersion>${tomee.version}</tomeeVersion>
+          <tomeeClassifier>jaxrs</tomeeClassifier>
+        </configuration>
+      </plugin>
+    </plugins>
     </build>
 
     <properties>
