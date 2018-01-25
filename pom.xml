@@ -23,6 +23,12 @@
 
     <dependencies>
 
+     <dependency>
+      <groupId>org.apache.tomee</groupId>
+      <artifactId>tomee-embedded</artifactId>
+      <version>7.0.2</version>
+    </dependency>
+             
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
