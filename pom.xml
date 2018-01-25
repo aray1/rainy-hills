@@ -12,9 +12,9 @@
       <plugin>
         <groupId>org.apache.tomee.maven</groupId>
         <artifactId>tomee-maven-plugin</artifactId>
-        <version>${tomee.version}</version>
+        <version>7.0.2</version>
         <configuration>
-          <tomeeVersion>${tomee.version}</tomeeVersion>
+          <tomeeVersion>7.0.2</tomeeVersion>
           <tomeeClassifier>jaxrs</tomeeClassifier>
         </configuration>
       </plugin>
